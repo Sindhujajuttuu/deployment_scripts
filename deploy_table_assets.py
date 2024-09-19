@@ -9,8 +9,8 @@ from mlops.utils.storage.s3 import S3Storage
 
 from common import get_configs, render_template, get_job_template, deploy_job, get_job_config
 
-#DOMAIN = 'https://dbc-f5cb4ef1-bc75.cloud.databricks.com/'
-#TOKEN = 'dapia095b4e0b20607855670c0ce3e7473f6'
+DOMAIN = 'https://dbc-f5cb4ef1-bc75.cloud.databricks.com/'
+TOKEN = 'dapia095b4e0b20607855670c0ce3e7473f6'
 
 
 def get_sql_files_recursive(directory):
